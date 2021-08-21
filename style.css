@@ -46,6 +46,7 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    text-align: center;
 }
 
 .bloc-md {
@@ -741,6 +742,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 570px;
 }
 
 .portfolio-row {
