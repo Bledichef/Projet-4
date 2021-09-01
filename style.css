@@ -196,7 +196,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .d-bloc .panel button:hover,
@@ -338,6 +338,7 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
     text-decoration: underline #c27956;
+    
 }
 
 .navbar-toggle {
@@ -742,6 +743,7 @@ h4 {
 .white {
     color: #000000!important;
     font-size: large;
+    text-align: center;
 }
 
 .portfolio-thumb {
@@ -1051,7 +1053,11 @@ h4 {
     }
 }
 .accueil{
+    text-decoration: none;
     margin-right: 65px;
+}
+.navcontact{
+    text-decoration: none;
 }
 .phototitle{
     width: 350px;
