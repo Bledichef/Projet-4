@@ -40,7 +40,7 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
+  
     padding-right: 0;
 }
 
@@ -295,7 +295,7 @@ a:hover {
 
 .navbar-brand {
     height: auto;
-    padding: 3px 15px;
+    padding: 3px 150px;
     font-size: 20px;
     font-weight: normal;
     font-weight: 600;
@@ -364,6 +364,9 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+.navbar-header:hover{
+    transform: scale(1.5);
 }
 
 @media (min-width: 768px) {
@@ -659,9 +662,7 @@ a {
     color: #565656!important;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
