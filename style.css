@@ -369,6 +369,10 @@ a:hover {
     transform: scale(1.5);
     margin-left: 150px;
 }
+.navbar-header:focus{
+    text-decoration-color: ;
+}
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -455,6 +459,10 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+}
+.btn:focus{
+    color: #FFF;
+    background: rgba(0, 0, 0, .3);
 }
 
 .btn.pull-right {
@@ -568,7 +576,12 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
-
+a[data-lightbox]:focus img {
+    opacity: 0.16;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+    
+}
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -804,10 +817,17 @@ h4 {
 .ltc-white {
     color: #FFFFFF!important;
 }
+.ltc-white{
+    color: #FFF;
+    background: rgba(0, 0, 0, .3);
+}
 
 .ltc-white:hover {
     color: #cccccc!important;
-}
+    }
+    .ltc-white:focus{
+        font-size: xx-large;
+    }
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
@@ -1001,6 +1021,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+   
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
