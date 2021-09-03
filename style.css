@@ -367,6 +367,7 @@ a:hover {
 }
 .navbar-header:hover{
     transform: scale(1.5);
+    margin-left: 150px;
 }
 
 @media (min-width: 768px) {
