@@ -1089,6 +1089,33 @@ h4 {
   margin-right: 100px;
   margin-left: 70px;
 }
+.fa-twitter:hover {
+  text-decoration: underline;
+}
+.fa-facebook:hover {
+  text-decoration: underline;
+}
+.fa-dribbble:hover {
+  text-decoration: underline;
+}
+.fa-instagram:hover {
+  text-decoration: underline;
+}
+.fa-twitter:focus {
+  text-decoration: underline;
+}
+.fa-facebook:focus {
+  text-decoration: underline;
+}
+.fa-dribbble:focus {
+  text-decoration: underline;
+}
+.fa-instagram:focus {
+  text-decoration: underline;
+}
+.social {
+  text-align: center;
+}
 @media screen and (min-width: 270px) and (max-width: 290px) {
   .form-control {
     width: 260px;
