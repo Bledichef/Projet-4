@@ -455,6 +455,7 @@ nav .caret {
 .btn:focus {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
 }
 
 .btn.pull-right {
