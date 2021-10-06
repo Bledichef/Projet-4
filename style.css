@@ -711,7 +711,7 @@ p {
   font-weight: 700;
 }
 
-.social {
+.socialnetworks {
   max-width: 400px;
   margin: auto auto auto auto;
 }
@@ -1114,7 +1114,7 @@ h4 {
 .fa-instagram:focus {
   text-decoration: underline;
 }
-.social {
+.socialnetworks {
   text-align: center;
 }
 @media screen and (min-width: 270px) and (max-width: 290px) {
