@@ -1094,6 +1094,7 @@ h4 {
   margin-right: 100px;
   margin-left: 70px;
 }
+/*
 .fa-twitter:hover {
   text-decoration: underline;
 }
@@ -1117,7 +1118,7 @@ h4 {
 }
 .fa-instagram:focus {
   text-decoration: underline;
-}
+}*/
 .social {
   text-align: center;
 }
